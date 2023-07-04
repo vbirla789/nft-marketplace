@@ -5,7 +5,7 @@ export default {
     extend: {},
     screens: {
       xl: { min: "1400px", max: "1600px" },
-      lg: { max: "1300px" },
+      lg: { min: "800px", max: "1000px" },
       md: { max: "767px" },
       sm: { max: "550px" },
       xsm: { max: "375px" },

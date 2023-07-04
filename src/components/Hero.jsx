@@ -8,9 +8,9 @@ const Hero = ({ biddata }) => {
   //   console.log(biddata);
 
   return (
-    <section className="flex md:flex-col pt-[6%] pl-[11%] md:pt-[32%] md:pl-[20%]">
+    <section className="flex md:flex-col lg:flex-col pt-[6%] pl-[11%] md:pt-[32%] md:pl-[20%] lg:pt-[18%] lg:pl-[11%]">
       <div>
-        <div className="flex justify-between w-[120vh] md:w-[50vh]">
+        <div className="flex justify-between w-[120vh] md:w-[50vh] lg:w-[38vh]">
           <div>
             <h1 className="text-2xl text-[#E2E4E9] font-semibold">
               Popular NFT's Live Auction
@@ -21,7 +21,7 @@ const Hero = ({ biddata }) => {
             <AiOutlineDown />
           </div>
         </div>
-        <div className="flex md:flex-col">
+        <div className="flex md:flex-col lg:flex-col">
           {biddata.map((val, i) => (
             <div key={i}>
               <Bid {...val} />
@@ -30,7 +30,7 @@ const Hero = ({ biddata }) => {
         </div>
       </div>
       <div>
-        <div className="flex justify-between w-[65vh] md:w-[30vh] ml-4 md:mt-4 md:ml-2">
+        <div className="flex justify-between w-[65vh] md:w-[30vh] lg:w-[38vh] ml-4 md:mt-4 md:ml-2 lg:ml-0 lg:mt-6">
           <div>
             <h1 className="text-2xl text-[#E2E4E9] font-semibold">Wallet</h1>
           </div>

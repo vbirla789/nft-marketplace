@@ -27,16 +27,16 @@ const Products = ({ nftData, ifExists }) => {
     breakpoints: {
       1200: { perPage: 4 },
       991: { perPage: 4 },
-      768: { perPage: 3 },
+      768: { perPage: 4 },
       500: { perPage: 2 },
       425: { perPage: 2 },
     },
   };
   return (
-    <div className="flex flex-col pl-[11%] md:pl-[20%] pt-10 md:pt-5 text-[#fff]">
+    <div className="flex flex-col pl-[11%] md:pl-[20%] pt-10 md:pt-5 lg:pt-8 text-[#fff] h-[70vh] md:h-[60vh] lg:h-[40vh]">
       {ifExists ? (
         <div className="pb-4">
-          <h1 className="text-xl font-semibold pb-3">
+          <h1 className="text-xl font-semibold pb-3 lg:pb-5">
             Last 7 days popular search
           </h1>
           <div className="flex gap-x-4 items-center">
@@ -48,12 +48,12 @@ const Products = ({ nftData, ifExists }) => {
           </div>
         </div>
       ) : (
-        <div className="flex flex-row gap-x-3 mb-5 bg-[#080B2A57] w-[25vh] md:w-[15vh] rounded-xl py-1 items-center justify-center text-[#E2E4E9]">
+        <div className="flex flex-row gap-x-3 lg:gap-x-6 mb-5 bg-[#080B2A57] w-[25vh] md:w-[15vh] lg:w-[13vh] rounded-xl py-1 items-center justify-center text-[#E2E4E9]">
           <button>Trending</button>
           <button>Top</button>
         </div>
       )}
-      <div className="flex flex-row w-[100vh] ">
+      <div className="flex flex-row w-[100vh]">
         <Splide options={splideOptions}>
           {nftData.map((val, i) => (
             <SplideSlide>

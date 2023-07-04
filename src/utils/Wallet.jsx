@@ -5,11 +5,13 @@ import Graph from "./Graph";
 
 const Wallet = ({ graph }) => {
   return (
-    <div className="bg-gradient-to-r from-[#2E409C] to-[#080B2A] mt-4 rounded-xl w-[58vh] h-[40vh] md:w-[30vh] md:h-[23vh] md:ml-2 ml-8 text-[#fff]">
+    <div className="bg-gradient-to-r from-[#2E409C] to-[#080B2A] mt-4 rounded-xl w-[58vh] h-[39vh] md:w-[32vh] md:h-[25vh] lg:w-[38vh] lg:h-[25vh] lg:ml-0 md:ml-0 ml-8 text-[#fff]">
       <div>
         <div className="flex flex-col items-center justify-center mt-2">
           <div>
-            <h1 className="text-base font-semibold">Your Balance</h1>
+            <h1 className="text-base font-semibold lg:my-3 lg:text-lg">
+              Your Balance
+            </h1>
           </div>
           <div className="flex items-end gap-x-1">
             <span className="text-sm">ETH</span>
