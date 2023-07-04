@@ -1,0 +1,35 @@
+<svg width="174" height="101" viewBox="0 0 174 101" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Graph">
+<g id="Vector 1" filter="url(#filter0_f_1_295)">
+<path d="M4 71.8515C8.125 71.8515 12.745 48.4059 23.8 48.4059C37.6187 48.4059 39.475 35.4158 52.2625 35.4158C65.05 35.4158 70.6187 50.9406 84.025 50.9406C97.4312 50.9406 95.3687 69 110.425 69C125.481 69 120.944 31.6139 136.206 31.6139C151.469 31.6139 148.787 17.6733 159.1 17.6733C169.412 17.6733 167.144 4.99999 169 5" stroke="#FF5959" stroke-width="2"/>
+</g>
+<path id="Vector 3" d="M4 71.8515C8.125 71.8515 12.745 48.4059 23.8 48.4059C37.6187 48.4059 39.475 35.4158 52.2625 35.4158C65.05 35.4158 70.6187 50.9406 84.025 50.9406C97.4312 50.9406 95.3687 69 110.425 69C125.481 69 120.944 31.6139 136.206 31.6139C151.469 31.6139 148.787 17.6733 159.1 17.6733C169.412 17.6733 167.144 4.99999 169 5" stroke="#FF5959" stroke-width="2"/>
+<g id="elipse">
+<circle id="Ellipse 26" cx="25.4844" cy="48.1045" r="3.5" fill="#FF0000" fill-opacity="0.5"/>
+<circle id="Ellipse 25" cx="25.4818" cy="48.1048" r="2.33333" fill="#FF0000"/>
+</g>
+<g id="elipse_2">
+<circle id="Ellipse 27" cx="66.4844" cy="41.1045" r="3.5" fill="#FF0000" fill-opacity="0.5"/>
+<circle id="Ellipse 25_2" cx="66.4818" cy="41.1048" r="2.33333" fill="#FF0000"/>
+</g>
+<g id="elipse_3">
+<circle id="Ellipse 27_2" cx="87.4844" cy="51.1045" r="3.5" fill="#FF0000" fill-opacity="0.5"/>
+<circle id="Ellipse 25_3" cx="87.4818" cy="51.1048" r="2.33333" fill="#FF0000"/>
+</g>
+<g id="elipse_4">
+<circle id="Ellipse 27_3" cx="108.484" cy="68.1045" r="3.5" fill="#FF0000" fill-opacity="0.5"/>
+<circle id="Ellipse 25_4" cx="108.482" cy="68.1048" r="2.33333" fill="#FF0000"/>
+</g>
+<g id="elipse_5">
+<circle id="Ellipse 27_4" cx="140.484" cy="31.1045" r="3.5" fill="#FF0000" fill-opacity="0.5"/>
+<circle id="Ellipse 25_5" cx="140.482" cy="31.1048" r="2.33333" fill="#FF0000"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_1_295" x="0" y="0" width="173.444" height="76.8515" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_1_295"/>
+</filter>
+</defs>
+</svg>
