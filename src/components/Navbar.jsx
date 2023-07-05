@@ -37,11 +37,11 @@ const Navbar = () => {
         <div>
           <img
             src={img1}
-            className="w-10 h-10 absolute top-3 md:right-[68vh] lg:right-[58vh]"
+            className="w-10 h-10 absolute top-3 md:right-[68vh] lg:right-[58vh] right-[31vh]"
             alt="profile img"
           />
         </div>
-        <div className="ml-[25%] mt-2">
+        <div className="ml-[20%] mt-2">
           <span>Vishal Birla</span>
           <p className="text-[#FFF]">vishalbirla@gmail.com</p>
         </div>

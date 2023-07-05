@@ -13,7 +13,7 @@ const Nft = ({ id, img, name, logo, title, desc, price, bid }) => {
           <AiOutlineHeart />
         </span>
       </div>
-      <div className="bg-[#0000001a] flex items-center absolute top-[70%] p-2 rounded-lg gap-x-3 text-base md:w-[32vh] md:top-[80%] lg:top-[60%] ">
+      <div className="bg-[#0000001a] backdrop-blur-md flex items-center absolute top-[70%] rounded-lg gap-x-3 text-base md:w-[32vh] md:top-[80%] lg:top-[60%] w-[48vh] left-2">
         <div>
           <img src={logo} />
         </div>

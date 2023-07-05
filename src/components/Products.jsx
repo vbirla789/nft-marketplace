@@ -33,10 +33,10 @@ const Products = ({ nftData, ifExists }) => {
     },
   };
   return (
-    <div className="flex flex-col pl-[11%] md:pl-[20%] pt-10 md:pt-5 lg:pt-8 text-[#fff] h-[70vh] md:h-[60vh] lg:h-[40vh]">
+    <div className="flex flex-col pl-[11%] md:pl-[20%] pt-10 md:pt-5 lg:pt-8 text-[#fff] h-[70vh] md:h-[54vh] lg:h-[40vh]">
       {ifExists ? (
         <div className="pb-4">
-          <h1 className="text-xl font-semibold pb-3 lg:pb-5">
+          <h1 className="text-2xl font-semibold pb-3 lg:pb-5">
             Last 7 days popular search
           </h1>
           <div className="flex gap-x-4 items-center">

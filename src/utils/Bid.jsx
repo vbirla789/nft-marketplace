@@ -18,7 +18,7 @@ const Bid = ({ id, img, time, bid, btn }) => {
             : "md:top-[29vh] lg:top-[28vh]"
         } absolute z-40 top-[38vh] flex flex-col items-center text-[#fff]`}
       >
-        <div className="flex justify-around items-center mx-5 md:mx-2 bg-[#00000021] w-[50vh] h-[15vh] md:w-[30vh] md:h-[8vh] lg:w-[35vh] lg:h-[10vh] rounded-lg">
+        <div className="flex justify-around items-center mx-5 md:mx-2 bg-[#00000021] w-[50vh] h-[15vh] md:w-[30vh] md:h-[8vh] lg:w-[35vh] lg:h-[10vh] rounded-lg backdrop-blur-md">
           <div>
             <span>{time}</span>
             <p className="text-sm">Time Remaining</p>
