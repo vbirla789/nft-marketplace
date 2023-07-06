@@ -26,14 +26,14 @@ const Products = ({ nftData, ifExists }) => {
     padding: "2rem",
     breakpoints: {
       1200: { perPage: 3 },
-      991: { perPage: 2.5 },
+      991: { perPage: 2.3 },
       768: { perPage: 2.5 },
       500: { perPage: 1.8 },
       425: { perPage: 1 },
     },
   };
   return (
-    <div className="flex flex-col ml-[10%] md:ml-[20%] pt-10 md:pt-5 lg:pt-10 text-[#fff] h-[62vh] md:h-[50vh] lg:h-[60vh]">
+    <div className="flex flex-col ml-[10%] md:ml-[20%] lg:ml-[15%] pt-10 md:pt-5 lg:pt-10 text-[#fff] h-[62vh] md:h-[50vh] lg:h-[30vh]">
       {ifExists ? (
         <div className="pb-4">
           <h1 className="text-2xl font-semibold pb-3 lg:pb-5 md:mr-5">
@@ -48,7 +48,7 @@ const Products = ({ nftData, ifExists }) => {
           </div>
         </div>
       ) : (
-        <div className="flex flex-row gap-x-3 mb-5 bg-[#080B2A57] w-[25vh] rounded-xl py-1 items-center justify-center text-[#E2E4E9]">
+        <div className="flex flex-row gap-x-3 mb-5 bg-[#080B2A57] w-[25vh] rounded-xl py-1 items-center justify-center text-[#E2E4E9] lg:w-[16vh]">
           <button>Trending</button>
           <button>Top</button>
         </div>

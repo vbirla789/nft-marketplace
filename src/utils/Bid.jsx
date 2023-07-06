@@ -14,9 +14,9 @@ const Bid = ({ id, img, time, bid, btn }) => {
       <div
         className={` ${
           id == 2 ? "md:top-[58%] " : "md:top-[58%] "
-        } absolute z-40 top-[40%] flex flex-col items-center text-[#fff] lg:top-[45%] md:w-[90%]`}
+        } absolute z-40 top-[40%] flex flex-col items-center text-[#fff] lg:top-[45%] md:w-[90%] lg:w-[100%] px-4 `}
       >
-        <div className="flex justify-around items-center mx-5 bg-[#00000021] w-[50vh] h-[15vh] md:mx-0 md:w-[90%] md:h-[10vh] lg:w-[50vh] lg:h-[10vh] rounded-lg backdrop-blur-md lg:mx-2">
+        <div className="flex justify-around items-center mx-5 bg-[#00000021] w-[50vh] h-[15vh] md:mx-0 md:w-[90%] md:h-[10vh] lg:w-[100%] lg:h-[8vh] rounded-lg backdrop-blur-md lg:mx-0">
           <div>
             <span>{time}</span>
             <p className="text-sm">Time Remaining</p>
@@ -27,7 +27,7 @@ const Bid = ({ id, img, time, bid, btn }) => {
           </div>
         </div>
         <div className="w-full flex items-center justify-center">
-          <button className="bg-[#090D2F] w-[50vh] md:w-[90%] lg:w-[50vh] mt-2 rounded-md text-sm font-normal py-1.5">
+          <button className="bg-[#090D2F] w-[50vh] md:w-[90%] lg:w-[100%] mt-2 rounded-md text-sm font-normal py-1.5">
             {btn}
           </button>
         </div>
