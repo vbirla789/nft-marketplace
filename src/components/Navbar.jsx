@@ -4,13 +4,13 @@ import img1 from "../assets/unsplash_pmACe385Ruo.png";
 
 const Navbar = () => {
   return (
-    <section className="fixed w-[90%] top-2 text-white flex items-center justify-between ml-[10%] z-200 md:ml-[4vh] md:top-3 lg:ml-[15vh]  lg:top-2">
-      <div className="flex items-center gap-2 ">
+    <section className="fixed w-[90%] top-2 text-white flex items-center justify-between ml-[10%] z-200 md:ml-[4vh] lg:ml-[15vh] lg:top-2">
+      <div className="flex items-center">
         {/* <AiOutlineSearch /> */}
         <input
           type="search"
           placeholder="Search by creator or collection"
-          className="bg-[#080b2a57] placeholder-[#A1A5B6] rounded-full px-6 py-2 w-[70vh] text-base md:w-[32vh] md:absolute md:top-[7vh] md:left-[5vh] lg:absolute lg:mt-[20%] lg:w-[80%] lg:ml-[0%]"
+          className="bg-[#080b2a57] placeholder-[#A1A5B6] rounded-full px-6 py-2 w-[70vh] text-base md:w-[85%] md:absolute md:mt-[24%] md:left-[16%] lg:absolute lg:mt-[20%] lg:w-[80%] lg:ml-[0%]"
         />
       </div>
       <div className="flex gap-4 text-[#FFF] text-sm md:gap-2 lg:gap-[5%]">
@@ -27,21 +27,21 @@ const Navbar = () => {
             Create
           </button>
         </div>
-        <div className="flex items-center">
+        <div className="flex items-center md:hidden">
           <button className="rounded-2xl bg-[#080b2a57] items-center justify-center min-w-[12vh] p-2 lg:py-3">
             Collect
           </button>
         </div>
       </div>
-      <div className="flex items-center mt-2 lg:ml-auto relative pl-[5%] lg:pl-[7%]">
-        <div className="absolute top-1 left-0">
+      <div className="flex items-center mt-2 lg:ml-auto relative pl-[5%] lg:pl-[7%] md:pl-[12%]">
+        <div className="absolute top-1 left-0  md:top-0">
           <img src={img1} className="w-10 h-10" alt="profile img" />
         </div>
-        <div>
+        <div className="">
           <span>Vishal Birla</span>
-          <p className="text-[#FFF]">vishalbirla@gmail.com</p>
+          <p className="text-[#FFF] ">vishalbirla@gmail.com</p>
         </div>
-        <div className="ml-6 mr-2">
+        <div className="ml-6 mr-2 md:hidden">
           <AiOutlineDown />
         </div>
       </div>
