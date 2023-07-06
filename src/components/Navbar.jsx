@@ -4,13 +4,13 @@ import img1 from "../assets/unsplash_pmACe385Ruo.png";
 
 const Navbar = () => {
   return (
-    <section className="fixed w-[90%] top-2 text-white flex items-center justify-between ml-[10%] z-200 md:ml-[4vh] lg:ml-[12%] lg:top-2 ">
+    <section className="fixed w-[90%] top-2 text-white flex items-center justify-between ml-[10%] z-200 md:ml-[4vh] lg:ml-[12%] lg:top-2 sm:ml-[5%]">
       <div className="flex items-center">
         {/* <AiOutlineSearch /> */}
         <input
           type="search"
           placeholder="Search by creator or collection"
-          className="bg-[#080b2a57] placeholder-[#A1A5B6] rounded-full px-6 py-2 w-[70vh] text-base md:w-[85%] md:absolute md:mt-[24%] md:left-[16%] lg:absolute lg:mt-[20%] lg:w-[80%] lg:max-w-[60vh] lg:ml-[4%]"
+          className="bg-[#080b2a57] placeholder-[#A1A5B6] rounded-full px-6 py-2 w-[70vh] text-base md:w-[85%] md:absolute md:mt-[24%] md:left-[16%] lg:absolute lg:mt-[20%] lg:w-[80%] lg:max-w-[60vh] lg:ml-[4%] sm:w-[70%] sm:left-[10%]"
         />
       </div>
       <div className="flex gap-4 text-[#FFF] text-sm md:gap-2 lg:gap-[5%]">
@@ -37,10 +37,10 @@ const Navbar = () => {
         </div>
       </div>
       <div className="flex items-center mt-2 lg:ml-auto relative pl-[5%] lg:pl-[7%] md:pl-[12%]">
-        <div className="absolute top-1 left-0  md:top-0">
+        <div className="absolute top-1 left-0 md:top-0 sm:hidden">
           <img src={img1} className="w-10 h-10" alt="profile img" />
         </div>
-        <div className="">
+        <div className="sm:hidden">
           <span>Vishal Birla</span>
           <p className="text-[#FFF] ">vishalbirla@gmail.com</p>
         </div>

@@ -12,11 +12,9 @@ const Bid = ({ id, img, time, bid, btn }) => {
         />
       </div>
       <div
-        className={` ${
-          id == 2 ? "md:top-[58%] " : "md:top-[58%] "
-        } absolute z-40 top-[40%] flex flex-col items-center text-[#fff] lg:top-[45%] md:w-[90%] lg:w-[100%] px-4 `}
+        className={`absolute z-40 top-[40%] flex flex-col items-center text-[#fff] lg:top-[45%] md:w-[90%] lg:w-[100%] px-4 md:top-[58%] sm:top-[28%] `}
       >
-        <div className="flex justify-around items-center mx-5 bg-[#00000021] w-[50vh] h-[15vh] md:mx-0 md:w-[90%] md:h-[10vh] lg:w-[100%] lg:h-[8vh] rounded-lg backdrop-blur-md lg:mx-0">
+        <div className="flex justify-around items-center mx-2 bg-[#00000021] w-[50vh] h-[15vh] md:mx-0 md:w-[90%] md:h-[10vh] lg:w-[100%] lg:h-[8vh] rounded-lg backdrop-blur-md lg:mx-0 ">
           <div>
             <span>{time}</span>
             <p className="text-sm">Time Remaining</p>

@@ -13,9 +13,9 @@ import { BiLogOut } from "react-icons/bi";
 
 const Sidebar = () => {
   return (
-    <div className="fixed top-4 lg:p-2 lg:pb-3 lg:items-center h-[90vh] lg:h-auto md:h-auto bg-[rgba(8,11,42,0.34)] rounded-xl ml-6 md:ml-5 md:top-[12vh] lg:top-[4vh] lg:ml-3 lg:px-0">
+    <div className="fixed top-4 lg:p-2 lg:pb-3 lg:items-center h-[90vh] lg:h-auto md:h-auto bg-[rgba(8,11,42,0.34)] rounded-xl ml-6 md:ml-5 md:top-[12vh] lg:top-[4vh] lg:ml-3 lg:px-0 sm:top-[8vh]">
       <div className="">
-        <img src={img2} alt="logo" className="w-[10vh]" />
+        <img src={img2} alt="logo" className="w-[10vh] sm:w-[6vh]" />
       </div>
       <div className="flex flex-col text-2xl text-[#15BFFD] gap-y-4 mt-4 md:gap-y-5 md:mt-[5vh] items-center lg:mt-[5vh]">
         <AiOutlineMessage />
