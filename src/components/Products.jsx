@@ -33,10 +33,10 @@ const Products = ({ nftData, ifExists }) => {
     },
   };
   return (
-    <div className="flex flex-col pl-[11%] md:pl-[10%] lg:pl-[13%] pt-10 md:pt-5 lg:pt-10 text-[#fff] h-[62vh] md:h-[54vh] lg:h-[35vh]">
+    <div className="flex flex-col pl-[11%] md:pl-[20%] lg:pl-[13%] pt-10 md:pt-5 lg:pt-10 text-[#fff] h-[62vh] md:h-[40vh] lg:h-[35vh]">
       {ifExists ? (
         <div className="pb-4">
-          <h1 className="text-2xl font-semibold pb-3 lg:pb-5">
+          <h1 className="text-2xl font-semibold pb-3 lg:pb-5 md:mr-5">
             Last 7 days popular search
           </h1>
           <div className="flex gap-x-4 items-center">
@@ -53,7 +53,7 @@ const Products = ({ nftData, ifExists }) => {
           <button>Top</button>
         </div>
       )}
-      <div className="md:w-[20vh]">
+      <div className="">
         <Splide options={splideOptions}>
           {nftData.map((val, i) => (
             <SplideSlide key={i}>

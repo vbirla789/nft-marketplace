@@ -41,7 +41,7 @@ const Navbar = () => {
             alt="profile img"
           />
         </div>
-        <div className="ml-[20%] mt-2 lg:ml-[34%]">
+        <div className="ml-[20%] mt-2 lg:ml-[34%] ">
           <span>Vishal Birla</span>
           <p className="text-[#FFF]">vishalbirla@gmail.com</p>
         </div>

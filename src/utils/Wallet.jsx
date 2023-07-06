@@ -5,7 +5,7 @@ import Graph from "./Graph";
 
 const Wallet = ({ graph }) => {
   return (
-    <div className="bg-gradient-to-r from-[#2E409C] to-[#080B2A] mt-4 rounded-xl w-[58vh] h-[39vh] md:w-[32vh] md:h-[25vh] lg:w-[53vh] lg:h-[30vh] lg:ml-0 md:ml-0 ml-8 text-[#fff]">
+    <div className="bg-gradient-to-r from-[#2E409C] to-[#080B2A] mt-4 rounded-xl w-[58vh] h-[39vh] md:w-[33vh] md:h-[25vh] lg:w-[53vh] lg:h-[30vh] lg:ml-0 md:ml-0 ml-8 text-[#fff]">
       <div>
         <div className="flex flex-col items-center justify-center mt-2">
           <div>

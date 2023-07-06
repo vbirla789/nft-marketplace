@@ -7,15 +7,18 @@ const Nft = ({ id, img, name, logo, title, desc, price, bid }) => {
       <div className="relative">
         <img src={img} className="md:w-[32vh] w-[45vh] " />
       </div>
-      <div className="flex p-2 m-x-2 gap-x-[45%] items-center w-[50vh] md:w-[32vh] md:p-3 lg:w-[78vh] lg:p-4 absolute top-[2%] z-10">
+      <div className="flex p-2 m-x-2 gap-x-[45%] items-center w-[50vh] md:w-[30vh] md:p-3 lg:w-[78vh] lg:p-4 absolute top-[2%] z-10">
         <h1>{name}</h1>
         <span>
           <AiOutlineHeart />
         </span>
       </div>
-      <div className="bg-[#0000001a] backdrop-blur-md flex items-center top-[70%] rounded-lg gap-x-2 text-base md:w-[32vh] md:top-[80%] lg:top-[65%] lg:w-[22vh] w-[42vh] left-[3%] absolute py-1">
+      <div className="bg-[#0000001a] backdrop-blur-md flex items-center top-[70%] rounded-lg gap-x-2 text-base md:w-[27vh] md:top-[70%] lg:top-[65%] lg:w-[22vh] w-[42vh] left-[3%] absolute py-1">
         <div className="ml-2">
-          <img src={logo} className="w-[10vh] h-[10vh] lg:w-[6vh] lg:h-[6vh]" />
+          <img
+            src={logo}
+            className="w-[10vh] h-[10vh] lg:w-[6vh] lg:h-[6vh] md:w-[5vh] md:h-[5vh]"
+          />
         </div>
         <div>
           <p>{title}</p>
