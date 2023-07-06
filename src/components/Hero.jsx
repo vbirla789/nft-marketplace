@@ -8,9 +8,9 @@ const Hero = ({ biddata }) => {
   //   console.log(biddata);
 
   return (
-    <section className="flex md:flex-col lg:flex-col pt-[6%] pl-[11%] md:pt-[32%] md:pl-[20%] lg:pt-[20%] lg:pl-[9vh]">
+    <section className="flex md:flex-col lg:flex-col pt-[6%] pl-[11%] md:pt-[32%] md:pl-[20%] lg:pt-[20%] lg:ml-[0]">
       <div>
-        <div className="flex justify-between w-[120vh] md:w-[30vh] lg:w-[53vh]">
+        <div className="flex justify-between w-[120vh] md:w-[30vh] lg:w-[90%]">
           <div>
             <h1 className="text-2xl text-[#E2E4E9] font-semibold">
               Popular NFT's Live Auction
@@ -21,7 +21,7 @@ const Hero = ({ biddata }) => {
             <AiOutlineDown />
           </div>
         </div>
-        <div className="flex md:flex-col lg:flex-col">
+        <div className="flex md:flex-col lg:flex-row">
           {biddata.map((val, i) => (
             <div key={i}>
               <Bid {...val} />

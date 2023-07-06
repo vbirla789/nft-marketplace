@@ -33,13 +33,13 @@ const Products = ({ nftData, ifExists }) => {
     },
   };
   return (
-    <div className="flex flex-col pl-[11%] md:pl-[20%] lg:pl-[13%] pt-10 md:pt-5 lg:pt-10 text-[#fff] h-[62vh] md:h-[40vh] lg:h-[35vh]">
+    <div className="flex flex-col pl-[11%] md:pl-[20%] lg:ml-[0] pt-10 md:pt-5 lg:pt-10 text-[#fff] h-[62vh] md:h-[40vh] lg:h-[60vh]">
       {ifExists ? (
         <div className="pb-4">
           <h1 className="text-2xl font-semibold pb-3 lg:pb-5 md:mr-5">
             Last 7 days popular search
           </h1>
-          <div className="flex gap-x-4 items-center">
+          <div className="flex gap-x-4 items-center ">
             {button.map((val, i) => (
               <button className="rounded-full  border-2 border-[#ffffff57] px-2">
                 {val.name}
@@ -48,7 +48,7 @@ const Products = ({ nftData, ifExists }) => {
           </div>
         </div>
       ) : (
-        <div className="flex flex-row gap-x-3 lg:gap-x-6 mb-5 bg-[#080B2A57] w-[25vh] md:w-[15vh] lg:w-[13vh] rounded-xl py-1 items-center justify-center text-[#E2E4E9]">
+        <div className="flex flex-row gap-x-3 mb-5 bg-[#080B2A57] w-[25vh] md:w-[15vh] rounded-xl py-1 items-center justify-center text-[#E2E4E9]">
           <button>Trending</button>
           <button>Top</button>
         </div>
