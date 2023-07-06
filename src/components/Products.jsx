@@ -21,19 +21,19 @@ const Products = ({ nftData, ifExists }) => {
     type: "loop",
     rewind: true,
     keyboard: "global",
-    gap: "0rem",
+    gap: "1rem",
     pagination: false,
-    padding: "0rem",
+    padding: "2rem",
     breakpoints: {
-      1200: { perPage: 4 },
-      991: { perPage: 4 },
-      768: { perPage: 4 },
-      500: { perPage: 2 },
-      425: { perPage: 2 },
+      1200: { perPage: 3 },
+      991: { perPage: 2.3 },
+      768: { perPage: 2 },
+      500: { perPage: 1.3 },
+      425: { perPage: 1 },
     },
   };
   return (
-    <div className="flex flex-col pl-[11%] md:pl-[20%] pt-10 md:pt-5 lg:pt-8 text-[#fff] h-[70vh] md:h-[54vh] lg:h-[40vh]">
+    <div className="flex flex-col pl-[11%] md:pl-[10%] lg:pl-[13%] pt-10 md:pt-5 lg:pt-10 text-[#fff] h-[62vh] md:h-[54vh] lg:h-[35vh]">
       {ifExists ? (
         <div className="pb-4">
           <h1 className="text-2xl font-semibold pb-3 lg:pb-5">
@@ -53,10 +53,10 @@ const Products = ({ nftData, ifExists }) => {
           <button>Top</button>
         </div>
       )}
-      <div className="flex flex-row w-[100vh]">
+      <div className="md:w-[20vh]">
         <Splide options={splideOptions}>
           {nftData.map((val, i) => (
-            <SplideSlide>
+            <SplideSlide key={i}>
               <Nft {...val} />
             </SplideSlide>
           ))}

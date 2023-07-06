@@ -7,7 +7,7 @@ const Graph = ({ img, text, num, graphImg }) => {
         <div className="rounded-full px-2 flex items-center bg-[#0DDC851F] py-2">
           <img src={img} className="h-4 w-4" />
         </div>
-        <p>{text}</p>
+        <p className="lg:text-xl mt-2">{text}</p>
       </div>
       <div className="">
         <span className="text-lg font-semibold">{num}</span>

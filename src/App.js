@@ -7,7 +7,7 @@ import { biddata, nftData } from "./data/data";
 
 function App() {
   return (
-    <div className="button md:min-h-[300vh] lg:min-h-[250vh]">
+    <div className="button md:min-h-[300vh] lg:min-h-[250vh] min-h-[250vh] md:w-[450px]">
       <Navbar />
       <Sidebar />
       <Hero biddata={biddata} />

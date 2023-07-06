@@ -13,7 +13,7 @@ import { BiLogOut } from "react-icons/bi";
 
 const Sidebar = () => {
   return (
-    <div className="fixed top-4 w-[10vh] md:w-[5vh] lg:w-[5vh] h-[90vh] lg:h-[75vh] md:h-[128vh] bg-[rgba(8,11,42,0.34)] rounded-xl ml-6 md:ml-2 md:top-20 lg:top-[1vh] lg:ml-3">
+    <div className="fixed top-4 w-[10vh] md:w-[5vh] lg:w-[5vh] h-[90vh] lg:h-[90vh] md:h-[128vh] bg-[rgba(8,11,42,0.34)] rounded-xl ml-6 md:ml-2 md:top-20 lg:top-[2vh] lg:ml-3">
       <div className="mt-2">
         <img src={img2} alt="logo" />
       </div>
