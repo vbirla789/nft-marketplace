@@ -3,8 +3,8 @@ import { AiOutlineHeart } from "react-icons/ai";
 
 const Nft = ({ id, img, name, logo, title, desc, price, bid }) => {
   return (
-    <div key={id}>
-      <div className="relative">
+    <div key={id} className="relative">
+      <div>
         <img src={img} className="md:w-[32vh] w-[45vh]" />
       </div>
       <div className="flex p-2 m-x-2 gap-x-[45%] items-center w-[50vh] md:p-3 lg:p-2 absolute top-[1%] z-10">

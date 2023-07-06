@@ -49,7 +49,7 @@ export const nftData = [
   {
     id: 1,
     img: rect1,
-    name: "Ready Players",
+    name: "Red Players",
     logo: logo1,
     title: "@dicoe",
     desc: "Stretch Of",
